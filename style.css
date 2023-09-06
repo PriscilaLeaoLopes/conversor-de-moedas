@@ -1,0 +1,144 @@
+/*
+   
+
+.bg-video {
+    z-index: -100;
+    width: 200%;
+    height: 200%;
+    bottom: 0%;
+    right: 0%;
+    position: absolute;
+    
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #0b0b0c;
+}
+.bg-video {
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+    
+}
+/*body {
+    background-color: #8A51FC;
+    background-image: url(./assets/dimdim.gif);
+    width: 100%;
+    right: 100%;
+    
+}*/
+
+h1 {
+    font-size: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #F4F4F4;
+
+
+}
+
+
+.conv {
+    width: 300px;
+    display: block;
+    margin: 2px auto;
+   
+}
+
+
+
+main {
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto 60px;
+    padding: 30px 24px 23px;
+    
+}
+
+label {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 5px;
+    background: #0b0b0c;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+button:hover {
+   opacity:  0.8;
+
+}
+button:active {
+    opacity: 0.6;
+}
+
+section {
+
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin-top: 28px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta-img {
+   margin: 15px 0;
+}
+
+.moedas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.moeda {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.moeda-valor , .moeda-valor-to-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+
+}
